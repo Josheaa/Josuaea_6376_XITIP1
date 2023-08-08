@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 
 // index Of
-rl.question("Masukkan kalimat pertama: ", (kalimat) => {
+rl.question("Masukkan kalimat sebuah kalimat: ", (kalimat) => {
     rl.question("Masukkan kata yang ingin Anda cari: ", (kataCari) => {
         // Gunakkan method indexOf untuk mencari kataCari dalam kalimat
         const indeksKata = kalimat.indexOf(kataCari);
