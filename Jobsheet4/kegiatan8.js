@@ -4,10 +4,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-// Last Index Of
+// Last index of
 rl.question("Masukkan sebuah kalimat: ", (kalimat) => {
-    rl.question("Masukkan kata yang ingin Anda cari: ", (kataCari) => {
-        // Gunakkan method LastindexOf untuk mencari kataCari dalam kalimat
+    rl.question("Masukkan kata/huruf yang ingin Anda cari: ", (kataCari) => {
         const indeksKataTerakhir = kalimat.indexOf(kataCari);
         if (indeksKataTerakhir !== -1) {
             console.log(`Kata '${kataCari}' ditemukkan pada indeks Terakhir: ${indeksKataTerakhir}`);
