@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 
 // Last Index Of
-rl.question("Masukkan kalimat pertama: ", (kalimat) => {
+rl.question("Masukkan sebuah kalimat: ", (kalimat) => {
     rl.question("Masukkan kata yang ingin Anda cari: ", (kataCari) => {
         // Gunakkan method LastindexOf untuk mencari kataCari dalam kalimat
         const indeksKataTerakhir = kalimat.indexOf(kataCari);
