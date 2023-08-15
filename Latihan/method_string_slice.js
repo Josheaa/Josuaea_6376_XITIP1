@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 
 // slice
-rl.question("Masukkan kalimat pertama: ", (kalimat) => {
+rl.question("Masukkan kalimat: ", (kalimat) => {
     rl.question("Masukkan indeks awal: ", (startIndex) => {
         rl.question("Masukkan indeks akhir: ", (endIndex) => {
             // Konversi nilai indeks ke tipe number
